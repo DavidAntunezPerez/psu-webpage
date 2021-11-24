@@ -1,3 +1,108 @@
-body{
+/* STYLESHEET FOR THE WEBPAGE */
+/* COLOR PALETTE IN THIS WEBSITE: lightpink ; #ffdbde ; white ; #3a4664 ; #a37647 .
+/* FONTS */
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: RobotoBlack;
+  src: url("../fonts/Roboto-Black.ttf");
+}
+/* GENERAL STYLE */
+body {
+  font-family: RobotoRegular, sans-serif;
   background-color: lightpink;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+}
+#container {
+  width: 90%;
+  background-color: #ffdbde; /*Temporary for guiding */
+  margin: auto; /*Centralice the container*/
+}
+/* HERO SECTION STYLE */
+#hero {
+  background-size: cover;
+  background-image: url("../images/psu_3.jpg");
+  height: 90vh;
+  background-position: 90%;
+  position: relative;
+  font-family: RobotoLight, sans-serif;
+}
+#hero h1 {
+  position:static;
+  color: #ffff;
+  bottom: 500px;
+  font-size: 1.5em;
+  padding: 1%;
+  bottom: 480px;
+  left: 3.5%;
+  background-color: #3a4664;
+  /* border-radius: 25px; */
+  text-transform: uppercase;
+}
+#cta {
+  position: absolute;
+  bottom: 40px;
+  left: 4%;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+#cta:hover {
+  /* PLACE THE MOUSE ON THE BUTTON */
+  color: #ffff;
+  background-color: #3a4664;
+  cursor: pointer;
+}
+/* INTRODUCTION STYLE  */
+#introduction {
+  background-color: #3a4664;
+  color: #ffdbdc;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 5%;
+  font-size: 1.25em;
+  border-bottom: 3px solid #a37647;
+}
+#introduction p {
+  text-align: justify;
+}
+#psu1 {
+  /* Imagen de la fuente de alimentación */
+  width: 50%;
+  float: right;
+  margin: 1% 2%;
+}
+
+/* SECTION 3 STYLE */
+
+/* SECTION 4 STYLE */
+
+/* SECTION 5 STYLE */
+
+/* SECTION 6 STYLE */
+
+/* SECTION 7 STYLE */
+
+/* FOOTER STYLE */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 850px) {
+  #container{
+    width: 100%;
+  }
+  #psu1 ,#psu2 ,#psu3{
+    width: 100%;
+  }
 }
