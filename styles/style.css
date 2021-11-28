@@ -83,7 +83,7 @@ h1 {
 #psu1 {
   /* Imagen de la fuente de alimentación */
   /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
-  width: 25%;
+  width: 50%;
   float:right;
   margin: 1% 0% 2% 2%;
 }
@@ -99,7 +99,7 @@ h1 {
   background-color: #3a4664;
   color:white;
   font-family:RobotoLight, sans-serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
   /* border-bottom: 5px solid #a37647; */
 }
 .half{
@@ -109,13 +109,13 @@ box-sizing: border-box; /* Include padding into width */
 padding-bottom: 2%;
 }
 #left{
-  padding: 0% 4%;
+  padding: 0% 5%;
   background-color: #3a4664;
 }
 #right{
   background-color: #3a4664;
   padding-right: 2%;
-  padding-bottom: 2.15%;
+  padding-bottom: 4%;
 }
 #plus80{ /* PSU Efficency image 80 plus */
   display: block;
