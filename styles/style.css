@@ -22,6 +22,7 @@ body {
 }
 h1 {
   text-transform: uppercase;
+  font-size: 1.5em;
 }
 #container {
   width: 90%;
@@ -36,6 +37,7 @@ h1 {
   background-position: 90%;
   position: relative;
   font-family: RobotoLight, sans-serif;
+  border-bottom: 5px solid #a37647;
 }
 #hero h1 {
   position:static;
@@ -72,7 +74,7 @@ h1 {
   font-family: RobotoLight, sans-serif;
   padding: 1% 5%;
   font-size: 1.25em;
-  border-bottom: 3px solid #a37647;
+  border-bottom: 5px solid #a37647;
 }
 #introduction p {
   text-align: justify;
@@ -88,6 +90,34 @@ h1 {
 
 /* SECTION 4 STYLE */
 
+#choose{
+  background-color: #3a4664;
+  color:white;
+  font-family:RobotoLight, sans-serif;
+  font-size: 1.25em;
+}
+.half{
+width: 50%;
+float: left;
+box-sizing: border-box; /* Include padding into width */
+padding-bottom: 2%;
+border-bottom: 5px solid #a37647;
+}
+#left{
+  padding: 0% 4%;
+  background-color: #3a4664;
+}
+#right{
+  background-color: #3a4664;
+  padding-right: 2%;
+  padding-bottom: 2.15%;
+}
+#plus80{ /* PSU Efficency image 80 plus */
+  padding-top: 8%;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
 /* SECTION 5 STYLE */
 
 /* SECTION 6 STYLE */
@@ -104,5 +134,11 @@ h1 {
   }
   #psu1 ,#psu2 ,#psu3{
     width: 100%;
+  }
+  .half{
+    width: 100%;
+  }
+  #plus80{
+    width: 90%;
   }
 }
