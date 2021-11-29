@@ -118,6 +118,7 @@ a #cta{
   width: 40%;
   float: right;
   margin: 1% 0% 0% 2%;
+  padding-bottom: 2%;
 }
 
 /* SECTION 3 STYLE */
@@ -127,7 +128,7 @@ a #cta{
   background-color: #3a4664;
   color: #ffff;
   font-family: RobotoLight, sans-serif;
-  padding: 1% 5%;
+  padding: 1% 4%;
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
 }
