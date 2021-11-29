@@ -127,7 +127,6 @@ h1 {
 #right {
   background-color: #3a4664;
   padding-right: 10%;
-  /* padding-bottom: 44.9%; */
 }
 #plus80 {
   /* PSU Efficency image 80 plus */
@@ -155,7 +154,7 @@ h1 {
 
 @media only screen and (max-width: 850px) {
   #container {
-    width: 100.2%;
+    width: 100%;
   }
   #psu1,
   #psu2,
@@ -166,6 +165,15 @@ h1 {
     width: 100%;
   }
   #plus80 {
-    width: 90%;
+    width: 100%;
+  }
+  #sec4{  
+    grid-template-columns: auto;
+  }
+  #right{  
+    padding-left:5%;
+  }
+  #left{  
+    padding-left: 5%;
   }
 }
