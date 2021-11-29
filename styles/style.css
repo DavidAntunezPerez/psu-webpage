@@ -14,6 +14,16 @@
   src: url("../fonts/Roboto-Black.ttf");
 }
 /* GENERAL STYLE */
+html{  
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none; /* Deletes decoration under links */
+}
+a:hover{  
+  color: #a37647;
+  text-decoration: none;
+}
 body {
   font-family: RobotoRegular, sans-serif;
   background-color: lightpink;
@@ -29,6 +39,11 @@ h1 {
   width: 90%;
   background-color: #ffdbde; /*Temporary for guiding */
   margin: auto; /*Centralice the container*/
+}
+nav{  
+  color: #3a4664;
+  text-align: center;
+  font-size:2em;
 }
 /* HERO SECTION STYLE */
 #hero {
