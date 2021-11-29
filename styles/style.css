@@ -90,6 +90,7 @@ h1 {
 
 /* SECTION 3 STYLE */
 #sec3 {
+  text-align: justify;
   position: relative;
   background-color: #3a4664;
   color: #ffff;
@@ -113,6 +114,7 @@ h1 {
   font-family: RobotoLight, sans-serif;
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
+  text-align: justify;
 }
 .half {
   /* width: 50%;  in small screens*/
