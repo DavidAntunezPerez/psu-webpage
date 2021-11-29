@@ -170,6 +170,7 @@ h1 {
   }
   #plus80 {
     width: 100%;
+    padding-top: 0;
   }
   #sec4 {
     grid-template-columns: auto;
