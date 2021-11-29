@@ -23,6 +23,7 @@ body {
 h1 {
   text-transform: uppercase;
   font-size: 1.7em;
+  text-align: left;
 }
 #container {
   width: 90%;
@@ -102,9 +103,6 @@ h1 {
 
 /* SECTION 4 STYLE */
 
-#sec4 p {
-  text-align: justify;
-}
 #sec4 {
   display: grid;
   grid-gap: auto;
@@ -133,7 +131,7 @@ h1 {
 #plus80 {
   /* PSU Efficency image 80 plus */
   display: block;
-  padding-top: 10%;
+  padding-top: 25%;
   width: 100%;
   margin: auto;
 }
@@ -141,6 +139,10 @@ h1 {
   margin-top: -2%;
   font-size: 0.7em;
   text-align: center;
+}
+#plusgold {
+  width: 100%;
+  padding: 3% 0 0 0%;
 }
 /* SECTION 5 STYLE */
 
@@ -169,13 +171,13 @@ h1 {
   #plus80 {
     width: 100%;
   }
-  #sec4{  
+  #sec4 {
     grid-template-columns: auto;
   }
-  #right{  
-    padding-left:5%;
+  #right {
+    padding-left: 5%;
   }
-  #left{  
+  #left {
     padding-left: 5%;
   }
 }
