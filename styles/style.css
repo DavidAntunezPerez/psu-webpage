@@ -89,13 +89,23 @@ h1 {
 }
 
 /* SECTION 3 STYLE */
+#sec3{ 
+  position: relative;
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 5%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+ }
+
 
 /* SECTION 4 STYLE */
 
-#choose p{  
+#sec4 p{  
   text-align: justify;
 }
-#choose{
+#sec4{
   background-color: #3a4664;
   color:white;
   font-family:RobotoLight, sans-serif;
