@@ -17,13 +17,42 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Enlazar favicon -->
   <link rel="shortcut icon" href="./images/favicons/psu_2.ico" type="image/x-icon">
+  <!-- Smooth scroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
   <title>Todo sobre PSU</title>
 </head>
 
 <body>
   <div id="container">
     <nav>
-     <a href="#hero">Home</a> <a href="#introduction">Introducción</a> <a href="#sec3">Funcionamiento</a> <a href="#sec4">Cual elegir</a> <a href="">Conclusión</a> <a href="">Referencias</a> <a href="">Contacto</a> 
+      <a href="#hero">Home</a> <a href="#introduction">Introducción</a> <a href="#sec3">Funcionamiento</a> <a
+        href="#sec4">Cual elegir</a> <a href="">Conclusión</a> <a href="">Referencias</a> <a href="">Contacto</a>
     </nav>
     <section id="hero">
       <!--Main section: "Hero section"-->

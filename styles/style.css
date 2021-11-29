@@ -14,9 +14,7 @@
   src: url("../fonts/Roboto-Black.ttf");
 }
 /* GENERAL STYLE */
-html{  
-  scroll-behavior: smooth;
-}
+
 a{
   text-decoration: none; /* Deletes decoration under links */
 }
