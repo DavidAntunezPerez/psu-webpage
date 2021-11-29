@@ -13,15 +13,37 @@
   font-family: RobotoBlack;
   src: url("../fonts/Roboto-Black.ttf");
 }
-/* GENERAL STYLE */
 
-a{
-  text-decoration: none; /* Deletes decoration under links */
-}
-a:hover{  
-  color: #a37647;
+/* Delete decoration under links */
+
+a {
   text-decoration: none;
 }
+/* NAVIGATION STYLE */
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 0;
+  color: lightpink;
+  text-align: center;
+  font-size: 1.25em;
+  background-color: #3a4664;
+  align-items: center;
+  min-height: 8vh;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #a37647;
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  }
+nav a:hover,:focus{  
+  color:red;
+}
+
+/* GENERAL STYLE */
 body {
   font-family: RobotoRegular, sans-serif;
   background-color: lightpink;
@@ -38,11 +60,6 @@ h1 {
   background-color: #ffdbde; /*Temporary for guiding */
   margin: auto; /*Centralice the container*/
 }
-nav{  
-  color: #3a4664;
-  text-align: center;
-  font-size:2em;
-}
 /* HERO SECTION STYLE */
 #hero {
   background-size: cover;
@@ -54,13 +71,11 @@ nav{
   border-bottom: 5px solid #a37647;
 }
 #hero h1 {
-  position: static;
   color: #ffff;
-  bottom: 500px;
   font-size: 3em;
   padding: 1%;
-  bottom: 480px;
   left: 3.5%;
+  margin: auto;
   background-color: #3a4664;
   border-bottom: 5px solid #a37647;
   text-transform: uppercase;
@@ -94,12 +109,13 @@ nav{
 #introduction p {
   text-align: justify;
 }
-#psu1 {
+#psu1,
+#psu7 {
   /* Imagen de la fuente de alimentación */
   /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
-  width: 50%;
+  width: 40%;
   float: right;
-  margin: 1% 0% 2% 2%;
+  margin: 1% 0% 0% 2%;
 }
 
 /* SECTION 3 STYLE */
