@@ -40,7 +40,7 @@ nav a{
   text-decoration:none;
   }
 nav a:hover,:focus{  
-  color:red;
+  color:rgb(255, 95, 95);
 }
 
 /* GENERAL STYLE */
