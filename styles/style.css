@@ -30,7 +30,7 @@ nav {
   font-size: 1.25em;
   background-color: #3a4664;
   align-items: center;
-  min-height: 8vh;
+  min-height: 6.3vh;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   border-bottom: 2px solid #a37647;
@@ -69,9 +69,9 @@ h1 {
   background-image: url("../images/psu_3.jpg");
   height: 90vh;
   background-position: 90%;
-  position: relative;
   font-family: RobotoLight, sans-serif;
   border-bottom: 5px solid #a37647;
+  position: relative;
 }
 #hero h1 {
   color: #ffff;
@@ -103,7 +103,6 @@ a #cta{
 }
 /* INTRODUCTION STYLE  */
 #introduction {
-  position: relative;
   background-color: #3a4664;
   color: #ffff;
   font-family: RobotoLight, sans-serif;
@@ -127,7 +126,6 @@ a #cta{
 /* SECTION 3 STYLE */
 #sec3 {
   text-align: justify;
-  position: relative;
   background-color: #3a4664;
   color: #ffff;
   font-family: RobotoLight, sans-serif;
@@ -182,7 +180,6 @@ a #cta{
 /* SECTION 5 STYLE */
 #sec5 {
   text-align: justify;
-  position: relative;
   background-color: #3a4664;
   color: #ffff;
   font-family: RobotoLight, sans-serif;
