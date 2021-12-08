@@ -189,13 +189,13 @@ a #cta{
 }
 .types{  
   width: 100%;
+  margin:-5%;
 }
 #type-container {
+  text-align: center;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 50px;
-  padding: 5% 0 5% 0;
-  
+  grid-gap: 25px;
 }
 
 /* SECTION 6 STYLE */
@@ -229,8 +229,11 @@ a #cta{
     width: 100%;
     padding-top: 0;
   }
-  #sec4 {
+  #sec4{
     grid-template-columns: auto;
+  }
+  .types{
+    width:123%;
   }
   #right {
     padding-left: 5%;
