@@ -21,10 +21,10 @@ a {
 }
 /* NAVIGATION STYLE */
 nav {
+  position:sticky !important;
+  top: 0;
   display: flex;
   justify-content: space-around;
-  position: relative;
-  top: 0;
   color: lightpink;
   text-align: center;
   font-size: 1.25em;
@@ -180,6 +180,19 @@ a #cta{
   padding: 2% 0 0 0%;
 }
 /* SECTION 5 STYLE */
+#sec5 {
+  text-align: justify;
+  position: relative;
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+}
+.types{  
+  width: 20%;
+}
 
 /* SECTION 6 STYLE */
 
