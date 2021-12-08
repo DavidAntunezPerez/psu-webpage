@@ -21,7 +21,7 @@ a {
 }
 /* NAVIGATION STYLE */
 nav {
-  position:sticky !important;
+  position: sticky !important;
   top: 0;
   display: flex;
   justify-content: space-around;
@@ -35,12 +35,13 @@ nav {
   text-transform: uppercase;
   border-bottom: 2px solid #a37647;
 }
-nav a{
-  color:white;
-  text-decoration:none;
-  }
-nav a:hover,:focus{  
-  color:#fc5c60;
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover,
+:focus {
+  color: #fc5c60;
 }
 
 /* GENERAL STYLE */
@@ -50,7 +51,7 @@ body {
   margin: 0;
   padding: 0;
 }
-b{  
+b {
   font-family: RobotoBlack, sans-serif;
 }
 h1 {
@@ -84,7 +85,7 @@ h1 {
   border-bottom: 5px solid #a37647;
   text-transform: uppercase;
 }
-a #cta{
+a #cta {
   position: absolute;
   bottom: 40px;
   left: 4%;
@@ -93,7 +94,7 @@ a #cta{
   border-radius: 25px;
   text-transform: uppercase;
   font-size: 2.5em;
-  color:#3a4664;
+  color: #3a4664;
 }
 #cta:hover {
   /* PLACE THE MOUSE ON THE BUTTON */
@@ -109,7 +110,6 @@ a #cta{
   padding: 1% 6%;
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
-  
 }
 #introduction p {
   text-align: justify;
@@ -179,23 +179,31 @@ a #cta{
 }
 /* SECTION 5 STYLE */
 #sec5 {
-  text-align: justify;
   background-color: #3a4664;
   color: #ffff;
   font-family: RobotoLight, sans-serif;
   padding: 1% 6%;
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
+  text-align: justify;
+  justify-content: space-around;
 }
-.types{  
+#sec5 p{  
+ 
+  border-radius: 5px;
+  width: 25px;
+}
+.types {
   width: 100%;
-  margin:-5%;
+  border: 3px solid #a37647;
+  border-radius: 200px;
 }
 #type-container {
   text-align: center;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 25px;
+  grid-row-gap: 0px;
+  grid-column-gap: 30px;
 }
 
 /* SECTION 6 STYLE */
@@ -214,11 +222,11 @@ a #cta{
   }
   #psu1,
   #psu2,
-  #psu3, 
-  #psu4, 
-  #psu5, 
+  #psu3,
+  #psu4,
+  #psu5,
   #psu6,
-  #psu7{
+  #psu7 {
     width: 100%;
     margin: 2% 0% 2% 0%;
   }
@@ -229,11 +237,11 @@ a #cta{
     width: 100%;
     padding-top: 0;
   }
-  #sec4{
+  #sec4 {
     grid-template-columns: auto;
   }
-  .types{
-    width:123%;
+  .types {
+    width: 123%;
   }
   #right {
     padding-left: 5%;
