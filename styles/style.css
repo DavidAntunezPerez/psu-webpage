@@ -293,6 +293,9 @@ footer h1 {
 #lside {
   border-right: 2px solid #3a4664;
 }
+#footer #mail{  
+font-size: 2em;
+}
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 850px) {
@@ -331,4 +334,8 @@ footer h1 {
   small {
     font-size: 0.7em;
   }
+  #social{  
+    flex-direction: column;
+  }
+  
 }
