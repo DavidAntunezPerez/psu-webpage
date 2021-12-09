@@ -232,7 +232,26 @@ font-size: 0.8em;
 }
 
 /* FOOTER STYLE */
-
+footer{  
+  background-color: #a37647;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.2em;
+  border-bottom: 5px solid #a37647;
+  text-align: center;
+  justify-content: space-around;
+}
+footer h1 {  
+  font-size: 1em;
+  text-align: center;
+}
+#starter{  
+  font-size: 1.5em;
+}
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 850px) {
