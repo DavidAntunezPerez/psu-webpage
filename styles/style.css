@@ -229,6 +229,9 @@ a #cta {
   text-align: center;
   font-size: 0.8em;
 }
+#fpies{  
+  border-radius: 200px;
+}
 
 /* FOOTER STYLE */
 footer {
@@ -248,11 +251,12 @@ footer h1 {
   font-size: 1em;
   text-align: center;
   margin-bottom: -1%;
+  padding-bottom: 1%;
 }
 #starter {
   font-size: 1.5em;
   font-family: RobotoBlack, sans-serif;
-  margin-bottom: 0;
+  margin-bottom: 3%;
   border-bottom: 2px solid #3a4664;
 }
 .fa {
@@ -262,17 +266,19 @@ footer h1 {
   line-height: 45px;
   letter-spacing: 20px;
 }
-.hlf {
-  display:grid;
-  grid-gap:auto;
+#hlf {
+  display: grid;
+  grid-gap: 120px;
   grid-template-columns: auto auto;
-
+  margin-bottom: 2%;
 }
-#social{  
+#social {
   display: flex;
   flex-wrap: auto;
-  justify-content:center;
-  
+  justify-content: center;
+}
+#lside {
+  border-right: 2px solid #3a4664;
 }
 /* MEDIA QUERIES */
 
@@ -309,7 +315,7 @@ footer h1 {
   #left {
     padding-left: 5%;
   }
-  small{  
+  small {
     font-size: 0.7em;
   }
 }
