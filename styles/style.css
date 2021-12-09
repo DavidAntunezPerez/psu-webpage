@@ -133,6 +133,11 @@ a #cta {
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
 }
+#sec3 img{ 
+  width:40%;
+  float:right;
+  margin: 1% 2%;
+ }
 
 /* SECTION 4 STYLE */
 
@@ -268,7 +273,7 @@ footer h1 {
 }
 #hlf {
   display: grid;
-  grid-gap: 120px;
+  grid-gap: 20px;
   grid-template-columns: auto auto;
   margin-bottom: 2%;
 }
@@ -276,6 +281,7 @@ footer h1 {
   display: flex;
   flex-wrap: auto;
   justify-content: center;
+  font-size: 2em;
 }
 #lside {
   border-right: 2px solid #3a4664;
