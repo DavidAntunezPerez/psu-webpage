@@ -207,10 +207,29 @@ a #cta {
 }
 
 /* SECTION 6 STYLE */
-
-/* SECTION 7 STYLE */
-
-/* SECTION 8 STYLE */
+#sec6 {
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+  text-align: justify;
+  justify-content: space-around;
+}
+#sec6 a{ 
+  text-decoration: none;
+  color: #a37647;
+}
+#sec6 img{ 
+  display: block;
+  margin:auto auto -40px auto;
+  width: 22%;
+}
+#sec6 #informative-text{  
+text-align: center;
+font-size: 0.8em;
+}
 
 /* FOOTER STYLE */
 
