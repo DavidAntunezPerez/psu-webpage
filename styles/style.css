@@ -252,6 +252,13 @@ footer {
   text-align: center;
   justify-content: space-around;
 }
+footer a{  
+  text-decoration: none;
+  color:white;
+}
+footer a:hover{
+  color:#3a4664;
+}
 footer h1 {
   font-size: 1em;
   text-align: center;
