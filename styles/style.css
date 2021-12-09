@@ -133,11 +133,11 @@ a #cta {
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
 }
-#sec3 img{ 
-  width:40%;
-  float:right;
+#sec3 img {
+  width: 40%;
+  float: right;
   margin: 1% 2%;
- }
+}
 
 /* SECTION 4 STYLE */
 
@@ -234,7 +234,7 @@ a #cta {
   text-align: center;
   font-size: 0.8em;
 }
-#fpies{  
+#fpies {
   border-radius: 200px;
 }
 
@@ -252,12 +252,12 @@ footer {
   text-align: center;
   justify-content: space-around;
 }
-footer a{  
+footer a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
-footer a:hover{
-  color:#3a4664;
+footer a:hover {
+  color: #3a4664;
 }
 footer h1 {
   font-size: 1em;
@@ -293,8 +293,8 @@ footer h1 {
 #lside {
   border-right: 2px solid #3a4664;
 }
-#footer #mail{  
-font-size: 2em;
+#footer #mail {
+  font-size: 2em;
 }
 /* MEDIA QUERIES */
 
@@ -334,10 +334,10 @@ font-size: 2em;
   small {
     font-size: 0.7em;
   }
-  #social{  
+  #social {
     flex-direction: column;
   }
-  nav{  
+  nav {
     flex-direction: column;
   }
 }
