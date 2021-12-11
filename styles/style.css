@@ -340,4 +340,13 @@ footer h1 {
   nav {
     flex-direction: column;
   }
+  #hlf{  
+    grid-gap: 0;
+  }
+  #rside{ 
+    padding-left: 50px;
+  }
+  #lside h1{ 
+    padding-right: 25px;
+  }
 }
