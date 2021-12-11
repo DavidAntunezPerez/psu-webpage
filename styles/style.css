@@ -43,7 +43,20 @@ nav a:hover,
 :focus {
   color: #fc5c60;
 }
+/* LANG SWITCHER */
+#lang-switcher {
+  margin-left:0%;
+  margin-right:0%;
+  display:flex;
+}
+#spa, #eng{  
+  width:40%;
+  text-align: center;
+  margin:0;
+  margin-left: auto;
+  margin-right: auto;
 
+}
 /* GENERAL STYLE */
 body {
   font-family: RobotoRegular, sans-serif;
