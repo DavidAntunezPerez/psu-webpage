@@ -133,17 +133,24 @@ a #cta {
   padding: 1% 6%;
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
+  padding-bottom: 5%;
 }
 #introduction p {
   text-align: justify;
 }
-#psu1,
 #psu7 {
   /* Imagen de la fuente de alimentación */
   /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
-  width: 40%;
+  width: 34%;
   float: right;
   margin: 1% 0% 0% 2%;
+}
+#psu1 {
+  /* Imagen de la fuente de alimentación */
+  /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
+  width: 34%;
+  float: right;
+  margin: 0% 0% 0% 2%;
 }
 
 /* SECTION 3 STYLE */
