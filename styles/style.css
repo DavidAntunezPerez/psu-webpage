@@ -48,14 +48,24 @@ nav a:hover,
   margin-left:0%;
   margin-right:0%;
   display:flex;
+  margin-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 #spa, #eng{  
-  width:40%;
+  width:35%;
   text-align: center;
   margin:0;
   margin-left: auto;
   margin-right: auto;
-
+  border:3px solid #3a4664;
+  border-radius: 50%;
+}
+#spa{ 
+  border-color: #a37647;
+}
+#eng:hover{
+  border:3px solid #a37647;
+  border-radius: 50%;
 }
 /* GENERAL STYLE */
 body {
