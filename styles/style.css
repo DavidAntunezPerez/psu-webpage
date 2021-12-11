@@ -133,7 +133,7 @@ a #cta {
   font-size: 1.5em;
   border-bottom: 5px solid #a37647;
 }
-#sec3 img {
+#psu8 {
   width: 40%;
   float: right;
   margin: 1% 2%;
@@ -308,7 +308,8 @@ footer h1 {
   #psu4,
   #psu5,
   #psu6,
-  #psu7 {
+  #psu7,
+  #psu8 {
     width: 100%;
     margin: 2% 0% 2% 0%;
   }
