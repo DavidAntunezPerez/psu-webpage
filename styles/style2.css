@@ -1,0 +1,376 @@
+/* STYLESHEET FOR THE WEBPAGE */
+/* COLOR PALETTE IN THIS WEBSITE: #3a4664 ; #a37647 ; #fc5c60 ; lightpink ; #ffdbde ; white .
+/* FONTS */
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: RobotoBlack;
+  src: url("../fonts/Roboto-Black.ttf");
+}
+
+/* Delete decoration under links */
+
+a {
+  text-decoration: none;
+}
+/* NAVIGATION STYLE */
+nav {
+  position: sticky !important;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  color: lightpink;
+  text-align: center;
+  font-size: 1.25em;
+  background-color: #3a4664;
+  align-items: center;
+  min-height: 6.3vh;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #a37647;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover,
+:focus {
+  color: #fc5c60;
+}
+/* LANG SWITCHER */
+#lang-switcher {
+  margin-left:0%;
+  margin-right:0%;
+  display:flex;
+  margin-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+#spa, #eng{  
+  width:35%;
+  text-align: center;
+  margin:0;
+  margin-left: auto;
+  margin-right: auto;
+  border:3px solid #3a4664;
+  border-radius: 50%;
+}
+#eng{ 
+  border-color: #a37647;
+}
+#spa:hover{
+  border:3px solid #a37647;
+  border-radius: 50%;
+}
+/* GENERAL STYLE */
+body {
+  font-family: RobotoRegular, sans-serif;
+  background-color: lightpink;
+  margin: 0;
+  padding: 0;
+}
+b {
+  font-family: RobotoBlack, sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 1.7em;
+  text-align: left;
+}
+#container {
+  width: 90%;
+  background-color: #ffdbde; /*Temporary for guiding */
+  margin: auto; /*Centralice the container*/
+}
+/* HERO SECTION STYLE */
+#hero {
+  background-size: cover;
+  background-image: url("../images/psu_3.jpg");
+  height: 90vh;
+  background-position: 90%;
+  font-family: RobotoLight, sans-serif;
+  border-bottom: 5px solid #a37647;
+  position: relative;
+}
+#hero h1 {
+  color: #ffff;
+  font-size: 3em;
+  padding: 1%;
+  padding-left: 3%;
+  left: 3.5%;
+  margin: auto;
+  background-color: #3a4664;
+  border-bottom: 5px solid #a37647;
+  text-transform: uppercase;
+}
+a #cta {
+  position: absolute;
+  bottom: 40px;
+  left: 4%;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: #3a4664;
+}
+#cta:hover {
+  /* PLACE THE MOUSE ON THE BUTTON */
+  color: #ffff;
+  background-color: #3a4664;
+  cursor: pointer;
+}
+/* INTRODUCTION STYLE  */
+#introduction {
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+}
+#introduction p {
+  text-align: justify;
+}
+#psu1,
+#psu7 {
+  /* Imagen de la fuente de alimentación */
+  /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
+  width: 40%;
+  float: right;
+  margin: 1% 0% 0% 2%;
+}
+
+/* SECTION 3 STYLE */
+#sec3 {
+  text-align: justify;
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+}
+#psu8 {
+  width: 40%;
+  float: right;
+  margin: 1% 2%;
+}
+
+/* SECTION 4 STYLE */
+
+#sec4 {
+  display: grid;
+  grid-gap: auto;
+  grid-template-columns: auto auto;
+  background-color: #3a4664;
+  color: white;
+  font-family: RobotoLight, sans-serif;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+  text-align: justify;
+}
+.half {
+  /* width: 50%;  in small screens*/
+  float: left;
+  box-sizing: border-box; /* Include padding into width */
+  padding-bottom: 2%;
+}
+#left {
+  padding: 0% 10%;
+  background-color: #3a4664;
+}
+#right {
+  background-color: #3a4664;
+  padding-right: 10%;
+}
+#plus80 {
+  /* PSU Efficency image 80 plus */
+  display: block;
+  padding-top: 25%;
+  width: 100%;
+  margin: auto;
+}
+#right p {
+  margin-top: -2%;
+  font-size: 0.7em;
+  text-align: center;
+}
+#plusgold {
+  width: 100%;
+  padding: 2% 0 0 0%;
+}
+/* SECTION 5 STYLE */
+#sec5 {
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+  text-align: justify;
+  justify-content: space-around;
+}
+#sec5 p {
+  border-radius: 5px;
+  width: 25px;
+}
+.types {
+  width: 100%;
+  border: 3px solid #a37647;
+  border-radius: 200px;
+}
+#type-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 0px;
+  grid-column-gap: 30px;
+}
+
+/* SECTION 6 STYLE */
+#sec6 {
+  background-color: #3a4664;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.5em;
+  border-bottom: 5px solid #a37647;
+  text-align: justify;
+  justify-content: space-around;
+}
+#sec6 a {
+  text-decoration: none;
+  color: #a37647;
+}
+#sec6 img {
+  display: block;
+  margin: auto auto -40px auto;
+  width: 22%;
+}
+#sec6 #informative-text {
+  text-align: center;
+  font-size: 0.8em;
+}
+#fpies {
+  border-radius: 200px;
+}
+
+/* FOOTER STYLE */
+footer {
+  background-color: #a37647;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffff;
+  font-family: RobotoLight, sans-serif;
+  padding: 1% 6%;
+  font-size: 1.2em;
+  border-bottom: 5px solid #a37647;
+  text-align: center;
+  justify-content: space-around;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: #3a4664;
+}
+footer h1 {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: -1%;
+  padding-bottom: 1%;
+}
+#starter {
+  font-size: 1.5em;
+  font-family: RobotoBlack, sans-serif;
+  margin-bottom: 3%;
+  border-bottom: 2px solid #3a4664;
+}
+.fa {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 45px;
+  letter-spacing: 20px;
+}
+#hlf {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: auto auto;
+  margin-bottom: 2%;
+}
+#social {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  font-size: 2em;
+}
+#rside{  
+  border-left: 2px solid #3a4664;
+}
+#footer #mail {
+  font-size: 2em;
+}
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 850px) {
+  #container {
+    width: 100%;
+  }
+  #psu1,
+  #psu2,
+  #psu3,
+  #psu4,
+  #psu5,
+  #psu6,
+  #psu7,
+  #psu8 {
+    width: 100%;
+    margin: 2% 0% 2% 0%;
+  }
+  .half {
+    width: 100%;
+  }
+  #plus80 {
+    width: 100%;
+    padding-top: 0;
+  }
+  #sec4 {
+    grid-template-columns: auto;
+  }
+  .types {
+    width: 123%;
+  }
+  #right {
+    padding-left: 5%;
+  }
+  #left {
+    padding-left: 5%;
+  }
+  small {
+    font-size: 0.7em;
+  }
+  #social {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+  #hlf{  
+    grid-gap: 0;
+  }
+  #rside{ 
+    padding-left: 50px;
+  }
+  #lside h1{ 
+    padding-right: 25px;
+  }
+}
