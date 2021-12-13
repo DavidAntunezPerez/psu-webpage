@@ -377,7 +377,8 @@ footer h1 {
     flex-direction: column;
   }
   #hlf {
-    grid-gap: 0;
+    grid-gap: 0px;
+    margin-right: 15px;
   }
   #rside {
     padding-left: 50px;
