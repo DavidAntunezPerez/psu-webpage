@@ -318,7 +318,7 @@ footer h1 {
 }
 #hlf {
   display: grid;
-  grid-gap: 175px;
+  grid-gap: 105px;
   grid-template-columns: auto auto;
   margin-bottom: 2%;
 }
