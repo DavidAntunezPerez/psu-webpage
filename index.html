@@ -51,12 +51,20 @@
 <body>
   <div id="container">
     <nav>
-      <a href="#hero">Home</a><a href="#introduction">Introduction</a> <a href="#sec3">How does it works</a> <a
-        href="#sec4">Choosing</a> <a href="#sec5">Types</a> <a href="#sec6">References</a> <a href="#footer">Contact</a>
-      <div id="lang-switcher">
-        <a href="./index-spa.html"><img id="spa" src="./images/spa_ico.png" alt="Spanish Icon"></a>
-        <a href="./index.html"><img id="eng" src="./images/eng_ico.png" alt="English Icon"></a>
+      <div class="topnav" id="myTopnav">
+        <a href="#hero">Home</a><a href="#introduction">Introduction</a> <a href="#sec3">How does it works</a> <a
+          href="#sec4">Choosing</a> <a href="#sec5">Types</a> <a href="#sec6">References</a> <a
+          href="#footer">Contact</a>
+        <div id="lang-switcher">
+          <a href="./index-spa.html"><img id="spa" src="./images/spa_ico.png" alt="Spanish Icon"></a>
+          <a href="./index.html"><img id="eng" src="./images/eng_ico.png" alt="English Icon"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776;
+          <!--SUSTITUIDO FONT AWESOME POR ESTO-->
+        </a>
       </div>
+
     </nav>
     <section id="hero">
       <!--Main section: "Hero section"-->
@@ -154,7 +162,7 @@
         </h1>
         <p>
           To choose a power supply correctly you must take into account three main
-           concepts: <b> power </b>, <b> amperage </b> and <b> efficiency </b>.
+          concepts: <b> power </b>, <b> amperage </b> and <b> efficiency </b>.
         <ul>
           <li><b> Power and amperage </b>: Power is measured in <b> watts (W) </b> and is the main criterion that
             follow users to
@@ -167,11 +175,13 @@
           </li>
           <br>
           <li><b> Efficiency </b>: it is a concept that in power supplies is defined as <b> electrical energy
-            lost in
-            form of heat </b> produced by the work of said component itself, that is, the <b> power
-            that loses
-            What
-            natural consequence of its own functioning </b>. Efficency is rated by the <b> 80 plus certification</b>, that goes from 80 plus common to titanium rating. Also, efficency <b> depends on the PSU load in that moment</b>, normally being the most efficent at <b> 50% of its load</b>.</li>
+              lost in
+              form of heat </b> produced by the work of said component itself, that is, the <b> power
+              that loses
+              What
+              natural consequence of its own functioning </b>. Efficency is rated by the <b> 80 plus certification</b>,
+            that goes from 80 plus common to titanium rating. Also, efficency <b> depends on the PSU load in that
+              moment</b>, normally being the most efficent at <b> 50% of its load</b>.</li>
         </ul>
         </p>
         <br>
@@ -203,28 +213,29 @@
       <div>
         <ul>
           <li> <b> MODULAR: </b> Contains <b> female connectors </b> on the back to which <b> only the
-            cables required </b>. </li>
-        <li> <b> FLEX: </b> This is a format that is used especially in <b> pre-assembled equipment </b> and also in
-          Some
-          <b> servers </b>, and it is not included among the most common formats since the <b> availability of models
-            at
-            market is very limited </b>. It should be mentioned that it is only used in models with <b> very little capacity </b>.
-        </li>
-        <li> <b> TFX: </b> It stands out for its <b> elongated size </b> and its presentation like a shoe box, which
-          wants
-          say it's like a prism. They usually come with the fan arranged in the <b> upper part </b>, focused
-          toward
-          above. </li>
-        <li> <b> SFX: </b> It is a <b> Small Form Factor (SFF, or
-            Small Form Factor) </b>, with <b> power specifications almost identical to ATX </b> and that, for
-          Therefore, as a rule, they are fully <b> compatible </b> with their pins. </li>
-        <li> <b> ATX: </b> The <b> most common </b> standard today. It has been the direct evolution of the <b>
-            old AT </b> format. </li>
-        <li> <b> REDUNDANT: </b> Set of <b> two power supplies in one </b>. Widely used in <b>
-            servers </b>. If there is a bug in one of them, the other is still functional. </li>
-        <li> <b> miniITX: </b> For more <b> compact and small </b> computers, which require <b> less
-            power </b>. Compatible with the miniITX box format. </li>
-        <li> <b> microATX: </b> Slightly smaller and with lower power than ATX. </li>
+              cables required </b>. </li>
+          <li> <b> FLEX: </b> This is a format that is used especially in <b> pre-assembled equipment </b> and also in
+            Some
+            <b> servers </b>, and it is not included among the most common formats since the <b> availability of models
+              at
+              market is very limited </b>. It should be mentioned that it is only used in models with <b> very little
+              capacity </b>.
+          </li>
+          <li> <b> TFX: </b> It stands out for its <b> elongated size </b> and its presentation like a shoe box, which
+            wants
+            say it's like a prism. They usually come with the fan arranged in the <b> upper part </b>, focused
+            toward
+            above. </li>
+          <li> <b> SFX: </b> It is a <b> Small Form Factor (SFF, or
+              Small Form Factor) </b>, with <b> power specifications almost identical to ATX </b> and that, for
+            Therefore, as a rule, they are fully <b> compatible </b> with their pins. </li>
+          <li> <b> ATX: </b> The <b> most common </b> standard today. It has been the direct evolution of the <b>
+              old AT </b> format. </li>
+          <li> <b> REDUNDANT: </b> Set of <b> two power supplies in one </b>. Widely used in <b>
+              servers </b>. If there is a bug in one of them, the other is still functional. </li>
+          <li> <b> miniITX: </b> For more <b> compact and small </b> computers, which require <b> less
+              power </b>. Compatible with the miniITX box format. </li>
+          <li> <b> microATX: </b> Slightly smaller and with lower power than ATX. </li>
         </ul>
       </div>
     </section>
@@ -232,7 +243,8 @@
       <!--Section 8: References-->
       <h1>References and credits</h1>
       <p>
-        This work has been carried out by David Antúnez Pérez for Computer Systems and Markdown Language subjects in the first year of Cross-Platform App Development at IES Campanillas.
+        This work has been carried out by David Antúnez Pérez for Computer Systems and Markdown Language subjects in the
+        first year of Cross-Platform App Development at IES Campanillas.
       </p>
       <p>The information on this page has been taken from the following sources:
       <ul>
