@@ -1,4 +1,4 @@
-/* STYLESHEET FOR THE WEBPAGE */
+/* STYLESHEET FOR THE WEBPAGE ENGLISH VERSION*/
 /* COLOR PALETTE IN THIS WEBSITE: #3a4664 ; #a37647 ; #fc5c60 ; lightpink ; #ffdbde ; white .
 /* FONTS */
 @font-face {
@@ -13,7 +13,6 @@
   font-family: RobotoBlack;
   src: url("../fonts/Roboto-Black.ttf");
 }
-
 /* Delete decoration under links */
 
 a {
@@ -58,7 +57,7 @@ nav a:hover,
 .topnav .icon {
   display: none;
 }
-/* LANG SWITCHER */
+/* NAV > LANG SWITCHER */
 #spa,
 #eng {
   display:flex;
@@ -147,8 +146,7 @@ a #cta {
   text-align: justify;
 }
 #psu7 {
-  /* Imagen de la fuente de alimentación */
-  /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
+  /* PSU Image */
   width: 34%;
   float: right;
   margin: 1% 0% 0% 2%;

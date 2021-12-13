@@ -1,4 +1,4 @@
-/* STYLESHEET FOR THE WEBPAGE */
+/* STYLESHEET FOR THE WEBPAGE TRANSLATED TO SPANISH*/
 /* COLOR PALETTE IN THIS WEBSITE: #3a4664 ; #a37647 ; #fc5c60 ; lightpink ; #ffdbde ; white .
 /* FONTS */
 @font-face {
@@ -148,14 +148,12 @@ a #cta {
 }
 #psu7 {
   /* Imagen de la fuente de alimentación */
-  /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
   width: 34%;
   float: right;
   margin: 1% 0% 0% 2%;
 }
 #psu1 {
   /* Imagen de la fuente de alimentación */
-  /* El texto no puede ser menor que la imagen, si no, sobresaldrá. */
   width: 34%;
   float: right;
   margin: 0% 0% 0% 2%;
@@ -176,9 +174,7 @@ a #cta {
   float: right;
   margin: 1% 2%;
 }
-
 /* SECTION 4 STYLE */
-
 #sec4 {
   display: grid;
   grid-gap: auto;
@@ -191,7 +187,6 @@ a #cta {
   text-align: justify;
 }
 .half {
-  /* width: 50%;  in small screens*/
   float: left;
   box-sizing: border-box; /* Include padding into width */
   padding-bottom: 2%;
