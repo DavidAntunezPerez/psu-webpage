@@ -179,7 +179,6 @@ a #cta {
 
 #sec4 {
   display: grid;
-  grid-gap: auto;
   grid-template-columns: auto auto;
   background-color: #3a4664;
   color: white;
@@ -322,7 +321,6 @@ footer h1 {
 }
 #social {
   display: flex;
-  flex-wrap: auto;
   justify-content: center;
   font-size: 2em;
 }
